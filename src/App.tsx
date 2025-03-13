@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import PokemonTeamForm from "./components/PokemonTeamForm/PokemonTeamForm";
 
 function App() {
   return (
-    <div>
-      <p>Welcome to Luna Edge technical interview</p>
-    </div>
-  )
+    <main className="flex h-lvh bg-gray-600 justify-center items-center">
+      <PokemonTeamForm />
+    </main>
+  );
 }
 
-export default App
+export default App;
+
+
+
